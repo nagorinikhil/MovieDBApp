@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MovieDBApp</string>
+    <string name="mainActivityLabel">My Favorite Movies</string>
+    <string name="addMovieActivityLabel">Add Movie</string>
+    <string name="editMovieActivityLabel">Edit Movie</string>
+    <string name="movieListYearActivityLabel">Movies By Year</string>
+    <string name="movieListRatingActivityLabel">Movies By Rating</string>
+
+
+    <string name="btnAddMovie">Add Movie</string>
+    <string name="btnMovieListRating">Show List By Rating</string>
+    <string name="btnMovieListYear">Show List By Year</string>
+    <string name="btnDeleteMovie">Delete Movie</string>
+    <string name="btnEditMovie">Edit</string>
+    <string name="movieName">Name:</string>
+    <string name="movieDesc">Description:</string>
+    <string name="movieGenre">Genre:</string>
+    <string name="movieRating">Rating:</string>
+    <string name="movieYear">Year:</string>
+    <string name="movieIMDB">IMDB:</string>
+    <string name="btnSaveChanges">Save Changes</string>
+    <string name="movieTitle">Title:</string>
+    <string name="btnFinish">Finish</string>
+    <string name="moviesByYear">Movies By Year</string>
+    <string name="moviesByRating">Movies By Rating</string>
+    <string-array name="GenreArray">
+        <item>Select</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+    <string name="selectgenre">Select Genre</string>
+</resources>

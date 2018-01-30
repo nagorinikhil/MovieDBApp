@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.hw.moviedbapp.MainActivity"
+
+    android:gravity="center_vertical|center_horizontal">
+
+
+    <Button
+        android:text="@string/btnAddMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnAddMovie"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="@string/btnEditMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddMovie"
+        android:layout_alignLeft="@+id/btnAddMovie"
+        android:layout_alignStart="@+id/btnAddMovie"
+        android:layout_alignEnd="@+id/btnAddMovie"
+        android:layout_alignRight="@+id/btnAddMovie"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:id="@+id/btnEditMovie" />
+
+    <Button
+        android:text="@string/btnDeleteMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEditMovie"
+        android:layout_alignLeft="@+id/btnAddMovie"
+        android:layout_alignStart="@+id/btnAddMovie"
+        android:layout_alignEnd="@+id/btnAddMovie"
+        android:layout_alignRight="@+id/btnAddMovie"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:id="@+id/btnDeleteMovie" />
+
+
+    <Button
+        android:text="@string/btnMovieListYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDeleteMovie"
+        android:layout_alignLeft="@+id/btnAddMovie"
+        android:layout_alignStart="@+id/btnAddMovie"
+        android:layout_alignEnd="@+id/btnAddMovie"
+        android:layout_alignRight="@+id/btnAddMovie"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:id="@+id/btnMovieListYear" />
+
+    <Button
+        android:text="@string/btnMovieListRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMovieListYear"
+        android:layout_alignLeft="@+id/btnAddMovie"
+        android:layout_alignStart="@+id/btnAddMovie"
+        android:layout_alignEnd="@+id/btnAddMovie"
+        android:layout_alignRight="@+id/btnAddMovie"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:id="@+id/btnMovieListRating" />
+
+
+</RelativeLayout>
